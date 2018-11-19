@@ -1,0 +1,26 @@
+create table product_table (pId varchar(30) not null unique primary key, pName varchar(10), 
+                            pPrice decimal(6,2) not null,pDescription varchar(30), pCompany varchar(30));
+
+insert into product_table values("Prod001","shoe",1000.00,"good quality",woodland);
+insert into product_table values("Prod001","shoe",1000.00,"good quality","woodland");
+insert into product_table values("Prod002","shoe",1030.00,"good quality","woodland");
+insert into product_table values("Prod003","shoe",1200.00,"good quality","woodland");
+insert into product_table values("Prod004","shoe",3020.00,"good quality","nike");
+insert into product_table values("Prod005","shoe",6000.00,"good quality","woodland");
+insert into product_table values("Prod006","shoe",3000.00,"good quality","woodland");
+insert into product_table values("Prod007","shoe",4000.00,"good quality","woodland");
+insert into product_table values("Prod008","shoe",2000.00,"good quality","woodland");
+insert into product_table values("Prod009","shoe",2000.00,"good quality","nike");
+
+
+
+insert into product_table values("Mob001","mobile",1000.00,"good quality","nokia");
+insert into product_table values("Mob001","mobile",1000.00,"good quality","nokia");
+insert into product_table values("Mob002","mobile",1030.00,"good quality","apple");
+insert into product_table values("Mob003","mobile",1200.00,"good quality","apple");
+insert into product_table values("Mob004","mobile",3020.00,"good quality","nokia");
+insert into product_table values("Mob005","mobile",6000.00,"good quality","apple");
+insert into product_table values("Mob006","mobile",3000.00,"good quality","apple");
+insert into product_table values("Mob007","mobile",4000.00,"good quality","nokia");
+insert into product_table values("Mob008","mobile",2000.00,"good quality","apple");
+insert into product_table values("Mob009","mobile",2000.00,"good quality","nokia");
